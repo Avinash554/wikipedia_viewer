@@ -120,11 +120,13 @@ input {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 976px) {
   h1 {
-      font-size: 60px;
+      font-size: 5em;
   }
-
+  body{
+	  margin-top: 150px;
+  }
   input {
     font-size: 20px;
   }
@@ -139,7 +141,7 @@ input {
   }
   
   #wikiSearchForm {
-      width: 80%;
+      width: 50%;
     }
 }
 .fa-heart{
